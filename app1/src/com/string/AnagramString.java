@@ -38,6 +38,7 @@ public class AnagramString {
 
 	public static void main(String[] args) {
 		isAnagram("peek", "KEEP");
+		isAnagram("heelo", "oheel");
 
 	}
 
