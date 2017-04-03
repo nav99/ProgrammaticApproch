@@ -44,7 +44,7 @@ public class HashMapShort implements Comparator {
 		
 		System.out.println("-----------");
 		// TODO Auto-generated method stub
-		return 0;
+		return 00;
 	}
 
 	
