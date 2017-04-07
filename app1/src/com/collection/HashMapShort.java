@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class HashMapShort implements Comparator {
+public class HashMapShort  {
 
 	public static void main(String[] args) {
 		HashMap<Integer, String> map = new HashMap<Integer ,String>();
@@ -21,7 +21,7 @@ public class HashMapShort implements Comparator {
 		System.out.println(map);
        Set <Entry<Integer,String>> set=map.entrySet();	
        
-       ArrayList<Entry<Integer,String>> list = new ArrayList<Entry<Integer,String>>();
+       ArrayList<Entry<Integer,String>> list = new ArrayList<Entry<Integer,String>>(set);
        System.out.println("--------");
        Collections.sort(list, new Comparator<Map.Entry<Integer,String>>(){
     	   
@@ -29,7 +29,7 @@ public class HashMapShort implements Comparator {
 	public int compare(Entry<Integer, String> o1, Entry<Integer, String> o2) {
       		System.out.println("----");
 		
-		return o2.getValue().compareTo(o1.getValue());
+		return o1.getValue().compareTo(o2.getValue());
        }
        });
        
@@ -39,13 +39,7 @@ public class HashMapShort implements Comparator {
        }
 	}
 
-	@Override
-	public int compare(Object o1, Object o2) {
-		
-		System.out.println("-----------");
-		// TODO Auto-generated method stub
-		return 00;
-	}
+
 
 	
 

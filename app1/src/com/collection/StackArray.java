@@ -1,7 +1,6 @@
 package com.collection;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
 
 class MyStack11 {
 	private int[] arr;
@@ -46,6 +45,7 @@ class MyStack11 {
 	public int pop() {
 		if (isStackEmpty())
 			System.out.println("Stack Underflow");
+		
 		return arr[top--];
 	}
 
