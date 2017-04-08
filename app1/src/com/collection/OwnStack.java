@@ -72,7 +72,7 @@ public class OwnStack {
 		ms.add(96);
 		ms.add(97);
 		ms.add(12);
-		System.out.println(ms);
+	//	System.out.println(ms);
 		System.out.println(ms.size());
 		System.out.println(ms.process());
 

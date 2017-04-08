@@ -44,9 +44,13 @@ class MyStack11 {
 
 	public int pop() {
 		if (isStackEmpty())
+		{
 			System.out.println("Stack Underflow");
+			return 0;
+			
+		}
 		
-		return arr[top--];
+		return (arr[top--]);
 	}
 
 }
@@ -58,15 +62,13 @@ public class StackArray {
 		ms.push(10);
 		ms.push(20);
 		ms.push(30);
-		ms.push(40);
-		ms.push(50);
-		ms.push(60);
-		ms.push(60);
-		ms.push(60);
-		ms.push(60);
-		ms.push(60);
-		ms.push(60);
-		ms.push(60);
+		
+		System.out.println("pop element is  "+ms.pop());
+		System.out.println("pop element is  "+ms.pop());
+		System.out.println("pop element is  "+ms.pop());
+		System.out.println("pop element is  "+ms.pop());
+		
+	
 
 	}
 
