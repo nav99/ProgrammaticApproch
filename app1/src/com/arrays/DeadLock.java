@@ -7,6 +7,7 @@ public class DeadLock extends Thread {
 
 	public static void main(String[] args) {
 
+		System.out.println();
 		A a1 = new A();
 		B b1 = new B();
 
