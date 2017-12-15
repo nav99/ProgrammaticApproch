@@ -8,6 +8,7 @@ public class DemoGc {
 			
 			DemoGc demo = new DemoGc();
 			//demo =null;
+			System.out.println();
 		}
 		Runtime r = Runtime.getRuntime();
 		

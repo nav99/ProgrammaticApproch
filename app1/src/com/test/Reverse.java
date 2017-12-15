@@ -10,7 +10,7 @@ public class Reverse {
 	    boolean contextspace = ' ' == string.charAt(string.length() - 1);
 	    for (int i = string.length() - 1; i >= 0; i--) {
 	        if (contextspace != (string.charAt(i) == ' ')) {
-	            sb.append(string.substring(i + 1, last));
+	        	sb.append(string.substring(i + 1, last));
 	            last = i + 1;
 	            contextspace = !contextspace;
 	        }

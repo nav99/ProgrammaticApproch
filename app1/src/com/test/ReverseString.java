@@ -3,9 +3,13 @@ package com.test;
 import java.io.Serializable;
 
 public class ReverseString implements Serializable{
-		   public static void main(String[] args) {
+		   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+		public static void main(String[] args) {
 		      System.out.println(reverse("ABCDEFG"));
-		      String s1 = "abc";
+		   //   String s1 = "abc";
 		      
 		   }
 		   private static String reverse(String str) {
