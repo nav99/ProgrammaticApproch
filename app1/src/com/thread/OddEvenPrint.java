@@ -76,7 +76,7 @@ public class OddEvenPrint {
 	public static void main(String[] args) {
 		int maxNumber = 50;
 		PrintNumber printer = new PrintNumber();
-        System.out.println("hello");
+
 		new Thread(new EvenNumberGenerator(printer, maxNumber)).start();
 		new Thread(new OddNumberGenerator(printer, maxNumber)).start();
 	}
